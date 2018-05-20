@@ -1,0 +1,35 @@
+USE  desweb;
+
+
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(1, "atletismo","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(2, "badminton","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(3, "basquete","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(4, "Boxe","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(5, "Canoagem","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(6, "Ciclismo","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(7, "Esgrima","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(8, "Futebol","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(9, "Ginástica","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(10, "Golfe","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(11, "Handebol","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(12, "Hipismo","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(13, "Hoquei sobre grama","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(14, "judô","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(15, "levantamento de peso","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(16, "lutas","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(17, "natação","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(18, "nado sincronizado","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(19, "pentatlo moderno","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(20, "polo aquático","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(21, "remo","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(22, "rúgbi","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(23, "saltos ornamentais","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(24, "taekwondo","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(25, "tênis","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(26, "tênis de mesa","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(27, "tiro com arco","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(28, "tiro esportivo","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(29, "triatlo","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(30, "vela","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(31, "vôlei","Verão");
+INSERT INTO `modalidade` (`id`,`nome`,`tipo`) VALUES(32, "vôlei de praia","Verão");
