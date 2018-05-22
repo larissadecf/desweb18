@@ -20,7 +20,7 @@ public class PaisDao {
 		try (Connection conn = cf.obtemConexao();
 				PreparedStatement stm = conn.prepareStatement(sqlInsert);) {
 				stm.setString(1, pais.getNome());
-				stm.setLong(2, pais.getPopulacao());
+				stm.setDouble(2, pais.getPopulacao());
 				stm.setDouble(3, pais.getArea());
 				stm.execute();
 				String sqlQuery = "SELECT LAST_INSERT_ID()";
@@ -44,7 +44,7 @@ public class PaisDao {
 		try (Connection conn = cf.obtemConexao();
 				PreparedStatement stm = conn.prepareStatement(sqlUpdate);) {
 				stm.setString(1, pais.getNome());
-				stm.setLong(2, pais.getPopulacao());
+				stm.setDouble(2, pais.getPopulacao());
 				stm.setDouble(3, pais.getArea());
 				stm.setInt(4, pais.getId());
 				stm.execute();

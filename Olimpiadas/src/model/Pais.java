@@ -7,7 +7,7 @@ public class Pais implements Serializable {
 	private static final long serialVersionUID = 1L;
 	public int id;
 	public String nome;
-	public long populacao;
+	public double populacao;
 	public double area;
 	
 
@@ -30,7 +30,7 @@ public class Pais implements Serializable {
 		this.nome = nome;
 	}
 
-	public long getPopulacao() {
+	public double getPopulacao() {
 		return populacao;
 	}
 
